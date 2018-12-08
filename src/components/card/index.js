@@ -6,7 +6,7 @@ import "./style/cardstyle.css";
 // import styles from "./style/styles";
 // import user_icon from "../../assets/images/icons/user.png";
 
-// import logo from "../../assets/images/logo/LOGOOHCA.jpg";
+// import logo from "../../assets/images/logo/LOGORe-Fund.jpg";
 
 // const selected = ()=> {}
 

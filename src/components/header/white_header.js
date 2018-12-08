@@ -6,7 +6,7 @@ import "./style/header.css";
 import styles from "./style/styles";
 import user_icon from "../../assets/images/icons/user.png";
 
-// import logo from "../../assets/images/logo/LOGOOHCA.jpg";
+import logo from "../../assets/images/logo/refund.png";
 
 // const selected = ()=> {}
 
@@ -16,6 +16,11 @@ const Header = props => {
     <div>
       <nav class="navbar navbar-light bg-light" style={styles.navbar}>
         <Link to="/" style={{ textTransform: "none", color: "black" }}>
+        <img src={logo} 
+        alt="Logo"
+        width={50}
+        height={50}
+        style={{ marginLeft: 10 }}/>
           <a class="navbar-brand">Re-fund</a>
         </Link>
         <a class="navbar-link">How we Work</a>

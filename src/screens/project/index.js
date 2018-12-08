@@ -20,16 +20,7 @@ class Project extends Component {
               <div style={{ width: "75%" }}>
                 <h3 className="display-5">Title of Busness</h3>
                 <p className="card-text long_text">
-                  La mission d’OHCA reste celle d’apporter un changement
-                  intégral dans les vécus de la population dans le milieu rural,
-                  en général et des populations vulnérables notamment la femme
-                  et les jeunes filles en particulier. Et aussi de développer
-                  des stratégies pour réduire l’extrême pauvreté et la faim et
-                  de mettre un terme aux décès à la base des évitables dus à une
-                  nutrition déficiente. Nos initiatives ciblent les populations
-                  les plus pauvres et les plus vulnérables, notamment les
-                  communautés rurales. d’ici 2030, un effort concerté demeure
-                  une priorité pour atteindre le développement durable.
+                  The mission of Re-Fund remains to bring about a complete change in the lived experiences of the population in rural areas, in general and vulnerable populations, especially women and girls in particular. And also to develop strategies to reduce extreme poverty and hunger and put an end to the deaths at the base of avoidable due to deficient nutrition. Our initiatives target the poorest and most vulnerable populations, including rural communities. by 2030, a concerted effort remains a priority to achieve sustainable development.
                 </p>
               </div>
             </div>
@@ -124,7 +115,7 @@ class Project extends Component {
         <div className="footer">
           <div className="row">
             <div className="col-12">
-              <h6>© OHCA 2018</h6>
+              <h6>© Re-Fund 2018</h6>
             </div>
           </div>
         </div>
