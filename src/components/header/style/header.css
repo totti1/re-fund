@@ -1,0 +1,22 @@
+.btn_hover:hover {
+	/* background-color: #d7dbdd;
+    color: black */
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	border-style: solid;
+}
+.btn-group:hover .dropdown-menu {
+	display: block;
+}
+.dropdown-item:hover {
+	/* border-bottom-color: black;
+	border-bottom-width: 2px;
+	border-style: solid; */
+	background-color: #d7dbdd;
+	color: black;
+}
+.brand {
+    color: black;
+    /* margin-top: 2px */
+	/* font-family: 'Times New Roman' */
+}

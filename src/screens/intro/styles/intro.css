@@ -1,0 +1,63 @@
+.home-intro {
+	min-height: 85vh;
+	padding: 100px 0px 100px;
+	background: /* top, transparent red, faked with gradient */ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url('../../../assets/images/other/4.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	/* background: rgb(0,100,66, 0.90); */
+	color: white;
+	/* filter: blur(3px);
+	-webkit-filter: blur(3px); */
+	/* overflow: hidden; */
+}
+.bg-text-intro {
+	color: white;
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	padding: 20px;
+	text-align: center;
+}
+.mypadding {
+	padding: 50px;
+}
+.lign {
+	margin-top: 3em;
+	border-width: 5px;
+	background-color: black;
+}
+.lign-inverse {
+	margin-top: 3em;
+	border-width: 5px;
+	background-color: white;
+}
+.context{
+	padding-bottom: 3em
+}
+.pauvrete {
+	min-height: 75vh;
+	padding: 100px 0px 100px;
+	background: /* top, transparent red, faked with gradient */ linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url('../../../assets/images/other/poverty.JPG') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	/* background: rgb(0,100,66, 0.90); */
+	color: white;
+}
+.vl {
+    border-left: 6px solid white;
+	height: 200px;
+	margin-top: -22px
+}
+.long_text{
+	line-height: 2.0
+}
