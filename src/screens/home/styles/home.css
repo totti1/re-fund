@@ -1,112 +1,112 @@
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 .bg-text {
-	background-color: rgb(0, 0, 0); /* Fallback color */
-	background-color: rgba(0, 0, 0, 0.7); /* Black w/opacity/see-through */
-	color: white;
-	font-weight: bold;
-	border: 3px solid #f1f1f1;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 2;
-	width: 80%;
-	padding: 20px;
-	text-align: center;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 
 .home {
-	min-height: 85vh;
-	padding: 100px 0px 100px;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url('../../../assets/images/other/1.jpg') no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	text-align: center;
-	/* background: rgb(0,100,66, 0.90); */
-	color: white;
+  min-height: 85vh;
+  padding: 100px 0px 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/images/background/home_bg.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  /* background: rgb(0,100,66, 0.90); */
+  color: white;
 }
 
 .about {
-	min-height: 80vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url('../../../assets/images/other/marchee.png') no-repeat center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	text-align: center;
-	color: white;
-	margin-top: 0%;
-	padding-top: 10%;
+  min-height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/images/background/testimony.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* text-align: center; */
+  color: white;
+  margin-top: 0%;
+  padding-top: 10%;
 }
 
 .contact {
-	height: 80vh;
-	text-align: center;
-	background: #fff;
-	margin-top: 0%;
-	padding: 60px 0px;
+  height: 80vh;
+  text-align: center;
+  background: #fff;
+  margin-top: 0%;
+  padding: 60px 0px;
 }
 
 .exrates {
-	float: left;
-	margin-left: 10%;
-	width: 15%;
+  float: left;
+  margin-left: 10%;
+  width: 15%;
 }
 
 .update {
-	float: left;
-	margin-left: 10%;
-	width: 15%;
+  float: left;
+  margin-left: 10%;
+  width: 15%;
 }
 
 .dashb {
-	float: left;
-	margin-left: 10%;
-	width: 15%;
+  float: left;
+  margin-left: 10%;
+  width: 15%;
 }
 
 .intouch {
-	list-style: none;
-	text-align: left;
-	font-size: 16pt;
+  list-style: none;
+  text-align: left;
+  font-size: 16pt;
 }
 
 .contactus {
-	float: right;
-	/* width: 60%; */
+  float: right;
+  /* width: 60%; */
 }
 
 .inline {
-	float: left;
+  float: left;
 }
 
 .left {
-	float: left;
+  float: left;
 }
 
 .right {
-	float: right;
+  float: right;
 }
 
 .pad {
-	padding: 2%;
+  padding: 2%;
 }
 
 .footer {
-	height: 7.5vh;
-	width: 100%;
-	text-align: center;
-	background: #e5e8e8;
-	padding-top: 10px;
-	margin-top: 60px;
-	/* bottom: 0; */
+  height: 7.5vh;
+  width: 100%;
+  text-align: center;
+  background: #e5e8e8;
+  padding-top: 10px;
+  margin-top: 60px;
+  /* bottom: 0; */
 }
 #user {
-	margin-top: 4%;
+  margin-top: 4%;
 }
