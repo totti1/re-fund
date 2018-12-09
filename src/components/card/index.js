@@ -6,7 +6,7 @@ import "./style/cardstyle.css";
 // import styles from "./style/styles";
 // import user_icon from "../../assets/images/icons/user.png";
 
-// import logo from "../../assets/images/logo/LOGOOHCA.jpg";
+// import logo from "../../assets/images/logo/LOGORe-Fund.jpg";
 
 // const selected = ()=> {}
 
@@ -22,7 +22,7 @@ const Card = props => {
         <p class="card-text">Small Description</p>
         <Link to="/projet+realises">
           <button type="button" class="btn btn-outline-dark">
-            Learn more
+            See more
           </button>
         </Link>
       </div>

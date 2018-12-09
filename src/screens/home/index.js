@@ -36,7 +36,7 @@ class Home extends Component {
         <div className="about">
           <div class="card" style={styles.imgCard}>
             <div class="card-body">
-              <h5 className="display-4">Ndayisaba Pascasie</h5>
+              <h5 className="display-4">Mukamana Pascasie</h5>
               <h6 class="card-subtitle mb-2 ">
                 Re-fund was a blessing for us because i was able to feed my
                 family and be independant
@@ -75,11 +75,7 @@ class Home extends Component {
               <br />
               <br />
               <form validate autoComplete="off">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Nom et Prenom"
-                />
+                <input class="form-control" type="text" placeholder="Names" />
                 <br />
                 <input
                   type="email"
@@ -92,7 +88,7 @@ class Home extends Component {
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
-                  placeholder="Entrez votre message"
+                  placeholder="Enter your message"
                 />
                 <br />
                 <button
@@ -109,7 +105,7 @@ class Home extends Component {
           <div className="footer">
             <div className="row">
               <div className="col-12">
-                <h6>© OHCA 2018</h6>
+                <h6>© Re-Fund 2018</h6>
               </div>
             </div>
           </div>

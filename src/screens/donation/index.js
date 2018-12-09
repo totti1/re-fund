@@ -106,7 +106,7 @@ class Intro extends Component {
         <div className="footer">
           <div className="row">
             <div className="col-12">
-              <h6>© OHCA 2018</h6>
+              <h6>© Re-Fund 2018</h6>
             </div>
           </div>
         </div>

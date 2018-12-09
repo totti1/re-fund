@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import "./style/header.css";
 import styles from "./style/styles";
 
-import logo from "../../assets/images/logo/LOGOOHCA.jpg";
+import logo from "../../assets/images/logo/refund.png";
 
 // const selected = ()=> {}
 
@@ -18,8 +18,7 @@ const Transparent = props => {
         style={styles.navbarTransparent}
       >
         <Link to="/" style={styles.link}>
-          <img src={logo} width="50" height="50" alt="" />
-          <h6 className="navbar-brand brand">OHCA</h6>
+          <img src={logo} width="70" height="50" alt="" />
         </Link>
         <button
           className="navbar-toggler"
