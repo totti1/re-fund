@@ -21,9 +21,9 @@ class Home extends Component {
             <div className="container">
               <div class="card" style={styles.card}>
                 <div class="card-body">
-                  <h5 className="display-4">
+                  <h6 className="display-5">
                     Fundraising for Refugees self-economic independance
-                  </h5>
+                  </h6>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ class Home extends Component {
         <div className="about">
           <div class="card" style={styles.imgCard}>
             <div class="card-body">
-              <h5 className="display-4">Ndayisaba Pascasie</h5>
+              <h5 className="display-4">Mukamana Pascasie</h5>
               <h6 class="card-subtitle mb-2 ">
                 Re-fund was a blessing for us because i was able to feed my
                 family and be independant
@@ -53,7 +53,7 @@ class Home extends Component {
           <br />
           <div className="row container">
             <div className="col">
-              <h4>Entrez en contact</h4>
+              <h4>Get In Touch</h4>
               <br />
               <br />
               <ul className="intouch">
@@ -80,7 +80,7 @@ class Home extends Component {
                 <input
                   class="form-control"
                   type="text"
-                  placeholder="Nom et Prenom"
+                  placeholder="Names"
                 />
                 <br />
                 <input
@@ -94,7 +94,7 @@ class Home extends Component {
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
-                  placeholder="Entrez votre message"
+                  placeholder="Enter your message"
                 />
                 <br />
                 <button
@@ -111,7 +111,7 @@ class Home extends Component {
           <div className="footer">
             <div className="row">
               <div className="col-12">
-                <h6>© OHCA 2018</h6>
+                <h6>© Re-Fund 2018</h6>
               </div>
             </div>
           </div>
