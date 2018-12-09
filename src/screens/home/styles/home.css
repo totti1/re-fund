@@ -53,51 +53,6 @@ body {
   padding: 60px 0px;
 }
 
-.exrates {
-  float: left;
-  margin-left: 10%;
-  width: 15%;
-}
-
-.update {
-  float: left;
-  margin-left: 10%;
-  width: 15%;
-}
-
-.dashb {
-  float: left;
-  margin-left: 10%;
-  width: 15%;
-}
-
-.intouch {
-  list-style: none;
-  text-align: left;
-  font-size: 16pt;
-}
-
-.contactus {
-  float: right;
-  /* width: 60%; */
-}
-
-.inline {
-  float: left;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.pad {
-  padding: 2%;
-}
-
 .footer {
   height: 7.5vh;
   width: 100%;
@@ -107,6 +62,6 @@ body {
   margin-top: 60px;
   /* bottom: 0; */
 }
-#user {
+/* #user {
   margin-top: 4%;
-}
+} */
