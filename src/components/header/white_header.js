@@ -19,16 +19,18 @@ const Header = props => {
           <a class="navbar-brand">Re-fund</a>
         </Link>
         <a class="navbar-link">How we Work</a>
-        <div class="navbar-link">
-          <img
-            src={user_icon}
-            alt="user icon"
-            width={25}
-            height={25}
-            style={{ marginRight: 10 }}
-          />
-          <a>Login</a>
-        </div>
+        <Link to="/login">
+          <div class="navbar-link">
+            <img
+              src={user_icon}
+              alt="user icon"
+              width={25}
+              height={25}
+              style={{ marginRight: 10 }}
+            />
+            <a>Login</a>
+          </div>
+        </Link>
       </nav>
     </div>
   );
