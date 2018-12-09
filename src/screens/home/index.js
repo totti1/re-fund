@@ -21,9 +21,7 @@ class Home extends Component {
             <div className="container">
               <div class="card" style={styles.card}>
                 <div class="card-body">
-                  <h6 className="display-5">
-                    Fundraising for Refugees self-economic independance
-                  </h6>
+                  <h3>Fundraising for Refugees self-economic independance</h3>
                 </div>
               </div>
             </div>
@@ -53,7 +51,7 @@ class Home extends Component {
           <br />
           <div className="row container">
             <div className="col">
-              <h4>Get In Touch</h4>
+              <h4>Get in touch</h4>
               <br />
               <br />
               <ul className="intouch">
@@ -77,11 +75,7 @@ class Home extends Component {
               <br />
               <br />
               <form validate autoComplete="off">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Names"
-                />
+                <input class="form-control" type="text" placeholder="Names" />
                 <br />
                 <input
                   type="email"

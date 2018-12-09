@@ -1,12 +1,12 @@
 import colors from "../../../assets/colors";
 const styles = {
   card: {
-    color: colors.contrastText,
-    marginTop: "5%",
-    padding: 5,
-    fontWeight: '900',
-    color: '#fff',
-    backgroundColor: 'rgba(100,200,200, 0.5)'
+    color: "white",
+    marginTop: "8%",
+    borderStyle: "solid",
+    borderWidth: 2,
+    borderColor: "white",
+    backgroundColor: "transparent"
   },
   imgCard: {
     width: "80%",

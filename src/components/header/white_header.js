@@ -18,8 +18,8 @@ const Header = props => {
         <Link to="/" style={{ textTransform: "none", color: "black" }}>
           <img src={logo} width="70" height="50" alt="" />
         </Link>
-        <a class="navbar-link">How we Work</a>
-        <Link to="/login">
+        {/* <a class="navbar-link">How we Work</a> */}
+        <Link to="/login" style={{ color: "black" }}>
           <div class="navbar-link">
             <img
               src={user_icon}
