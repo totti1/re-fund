@@ -21,9 +21,7 @@ class Home extends Component {
             <div className="container">
               <div class="card" style={styles.card}>
                 <div class="card-body">
-                  <h5 className="display-4">
-                    Fundraising for Refugees self-economic independance
-                  </h5>
+                  <h3>Fundraising for Refugees self-economic independance</h3>
                 </div>
               </div>
             </div>
@@ -53,7 +51,7 @@ class Home extends Component {
           <br />
           <div className="row container">
             <div className="col">
-              <h4>Entrez en contact</h4>
+              <h4>Get in touch</h4>
               <br />
               <br />
               <ul className="intouch">

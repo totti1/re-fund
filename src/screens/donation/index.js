@@ -55,19 +55,36 @@ class Intro extends Component {
           </div>
         </div>
 
-        <div className="container">
-          <h4>We want to have feedback from you</h4>
+        <div className="container" style={{ width: "50%" }}>
+          <h4>Personal Information</h4>
           <br />
           <br />
           <form validate autoComplete="off">
+            <div class="form-group">
+              <select
+                class="form-control"
+                id="exampleFormControlSelect1"
+                placeholder="Title"
+              >
+                <option>Title</option>
+                <option>Mr.</option>
+                <option>Mrs.</option>
+                <option>Miss</option>
+                <option>Ms</option>
+                <option>Dr</option>
+              </select>
+            </div>
+            <br />
             <input class="form-control" type="text" placeholder="Names" />
             <br />
             <input
               type="email"
               class="form-control"
               id="exampleFormControlInput1"
-              placeholder="email"
+              placeholder="Email"
             />
+            <br />
+            <input class="form-control" type="text" placeholder="Country" />
             <br />
             <textarea
               class="form-control"
