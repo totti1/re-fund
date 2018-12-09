@@ -10,10 +10,10 @@ class Business_Analysis extends Component {
       <div>
         <Menu>
           <div className="container mypadding">
-            <table class="table">
+            <h3 style={{ marginBottom: 50 }}>Farmer Cooperative Stats,</h3>
+            <table class="table" style={{ backgroundColor: "white" }}>
               <thead class="thead-dark">
                 <tr>
-                  <th scope="col">Business Name</th>
                   <th scope="col">Sponsor</th>
                   <th scope="col">Donations</th>
                   <th scope="col">Total Amount</th>
@@ -23,7 +23,6 @@ class Business_Analysis extends Component {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">farmer cooperative</th>
                   <td>Tears Fund</td>
                   <td>2</td>
                   <td>2000$</td>
@@ -39,7 +38,6 @@ class Business_Analysis extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">potter cooperative</th>
                   <td>Unesco</td>
                   <td>1</td>
                   <td>7000$</td>
@@ -55,7 +53,6 @@ class Business_Analysis extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">catterys cooperative</th>
                   <td>Milka</td>
                   <td>9</td>
                   <td>10000$</td>
@@ -71,7 +68,6 @@ class Business_Analysis extends Component {
                   </td>
                 </tr>
                 <tr>
-                  <th scope="row">shoemaker cooperative</th>
                   <td>Denzel Washigton</td>
                   <td>5</td>
                   <td>8000$</td>
