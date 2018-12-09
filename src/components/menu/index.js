@@ -144,7 +144,7 @@ class MiniDrawer extends React.Component {
                 </ListItemText>
               </ListItem>
             </Link>
-            <Link to="/business+analysis">
+            <Link to="/business+management">
               <ListItem button>
                 <ListItemIcon>
                   <img src={management} alt="home icon" />

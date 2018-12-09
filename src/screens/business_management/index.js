@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Menu from "../../components/menu";
-// import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 // import "./styles/login.css";
 
 class Business_Management extends Component {
@@ -18,11 +18,16 @@ class Business_Management extends Component {
             }}
           >
             <div class="card-body">
-              <h5 class="card-title">Business Name</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <Link
+                to="/business+analysis"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <h5 class="card-title">Business Name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </Link>
             </div>
           </div>
           <div
@@ -35,11 +40,16 @@ class Business_Management extends Component {
             }}
           >
             <div class="card-body">
-              <h5 class="card-title">Business Name</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <Link
+                to="/business+analysis"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <h5 class="card-title">Business Name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </Link>
             </div>
           </div>
           <div
@@ -52,11 +62,16 @@ class Business_Management extends Component {
             }}
           >
             <div class="card-body">
-              <h5 class="card-title">Business Name</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <Link
+                to="/business+analysis"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <h5 class="card-title">Business Name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </Link>
             </div>
           </div>
           <div
@@ -69,11 +84,16 @@ class Business_Management extends Component {
             }}
           >
             <div class="card-body">
-              <h5 class="card-title">Business Name</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <Link
+                to="/business+analysis"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <h5 class="card-title">Business Name</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </Link>
             </div>
           </div>
         </Menu>
