@@ -18,8 +18,7 @@ const Transparent = props => {
         style={styles.navbarTransparent}
       >
         <Link to="/" style={styles.link}>
-          <img src={logo} width="50" height="50" alt="" />
-          <h6 className="navbar-brand brand">Re-Fund</h6>
+          <img src={logo} width="70" height="50" alt="" />
         </Link>
         <button
           className="navbar-toggler"

@@ -2,7 +2,9 @@ import colors from "../../../assets/colors";
 const styles = {
   card: {
     color: colors.contrastText,
-    marginTop: "5%"
+    marginTop: "5%",
+    padding: 5,
+    fontWeight: '900',
   },
   imgCard: {
     width: "80%",

@@ -21,9 +21,9 @@ class Home extends Component {
             <div className="container">
               <div class="card" style={styles.card}>
                 <div class="card-body">
-                  <h5 className="display-4">
+                  <h6 className="display-5">
                     Fundraising for Refugees self-economic independance
-                  </h5>
+                  </h6>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ class Home extends Component {
           <br />
           <div className="row container">
             <div className="col">
-              <h4>Entrez en contact</h4>
+              <h4>Get In Touch</h4>
               <br />
               <br />
               <ul className="intouch">
@@ -80,7 +80,7 @@ class Home extends Component {
                 <input
                   class="form-control"
                   type="text"
-                  placeholder="Nom et Prenom"
+                  placeholder="Names"
                 />
                 <br />
                 <input
@@ -94,7 +94,7 @@ class Home extends Component {
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
-                  placeholder="Entrez votre message"
+                  placeholder="Enter your message"
                 />
                 <br />
                 <button

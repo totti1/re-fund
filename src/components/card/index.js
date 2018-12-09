@@ -22,7 +22,7 @@ const Card = props => {
         <p class="card-text">Small Description</p>
         <Link to="/projet+realises">
           <button type="button" class="btn btn-outline-dark">
-            Learn more
+            See more
           </button>
         </Link>
       </div>

@@ -16,12 +16,7 @@ const Header = props => {
     <div>
       <nav class="navbar navbar-light bg-light" style={styles.navbar}>
         <Link to="/" style={{ textTransform: "none", color: "black" }}>
-        <img src={logo} 
-        alt="Logo"
-        width={50}
-        height={50}
-        style={{ marginLeft: 10 }}/>
-          <a class="navbar-brand">Re-fund</a>
+          <img src={logo} width="70" height="50" alt="" />
         </Link>
         <a class="navbar-link">How we Work</a>
         <div class="navbar-link">
