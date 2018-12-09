@@ -55,7 +55,7 @@ function ShowRoute({ component: Component, items, param, ...rest }) {
     />
   );
 }
-class App extends Component {
+export default class App extends Component {
   constructor() {
     super();
     this.setCurrentUser = this.setCurrentUser.bind(this);
@@ -165,37 +165,35 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <BrowserRouter>
-          <div className="main-content" style={{ padding: "1em" }}>
-            <div className="workspace">
-              <Route
-                exact
-                path="/login"
-                render={props => {
-                  return (
-                    <Login setCurrentUser={this.setCurrentUser} {...props} />
-                  );
-                }}
-              />
-              <Route exact path="/" component={Home} />
-              <Route path="/introduction" component={Intro} />
-              <Route path="/donation" component={Donation} />
-              <Route path="/projet+realises" component={Projet} />
-              <Route path="/login" component={Login} />
-              <Route path="/message" component={Message} />
-              <Route path="/view+message" component={View_Message} />
-              <Route path="/business+added" component={Business_added} />
-              <Route path="/add+an+agent" component={Add_Agent} />
-              <Route
-                path="/business+management"
-                component={Business_Management}
-              />
-              <Route path="/business+analysis" component={Business_Analysis} />
-            </div>
+          <div>
+            {/* <div className="workspace"> */}
+            <Route
+              exact
+              path="/login"
+              render={props => {
+                return (
+                  <Login setCurrentUser={this.setCurrentUser} {...props} />
+                );
+              }}
+            />
+            <Route exact path="/" component={Home} />
+            <Route path="/introduction" component={Intro} />
+            <Route path="/donation" component={Donation} />
+            <Route path="/projet+realises" component={Projet} />
+            {/* <Route path="/login" component={Login} /> */}
+            <Route path="/message" component={Message} />
+            <Route path="/view+message" component={View_Message} />
+            <Route path="/business+added" component={Business_added} />
+            <Route path="/add+an+agent" component={Add_Agent} />
+            <Route
+              path="/business+management"
+              component={Business_Management}
+            />
+            <Route path="/business+analysis" component={Business_Analysis} />
           </div>
+          {/* </div> */}
         </BrowserRouter>
       </MuiThemeProvider>
     );
   }
 }
-
-export default App;

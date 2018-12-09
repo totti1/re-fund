@@ -18,26 +18,7 @@ class Login extends Component {
     const password = this.passwordInput.value;
 
     Firebase.auth()
-      .fetchProvidersForEmail(email)
-      .then(providers => {
-        if (providers.length === 0) {
-          // create user
-          return Firebase.auth().createUserWithEmailAndPassword(
-            email,
-            password
-          );
-        } else if (providers.indexOf("password") === -1) {
-          // they used facebook
-          this.loginForm.reset();
-          console.log({
-            intent: Intent.WARNING,
-            message: "Try alternative login."
-          });
-        } else {
-          // sign user in
-          return Firebase.auth().signInWithEmailAndPassword(email, password);
-        }
-      })
+      .signInWithEmailAndPassword(email, password)
       .then(user => {
         if (user && user.email) {
           this.loginForm.reset();

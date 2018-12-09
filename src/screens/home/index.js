@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import * as firebase from "firebase";
+import _ from "lodash";
 
 import { Whiteheader } from "../../components/header";
 import Card from "../../components/card";
@@ -10,8 +12,32 @@ import styles from "./styles/styles";
 import loc from "../../assets/images/icons/placeholder.png";
 import phone from "../../assets/images/icons/smartphone.png";
 import email from "../../assets/images/icons/message.png";
-
+const myLink = props => <Link to="projet+realises" />;
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      business: []
+    };
+  }
+  async componentWillMount() {
+    const that = this;
+    await firebase
+      .database()
+      .ref(`/business`)
+      .on("value", snapshot => {
+        // console.log(snapshot)
+        const usersData = _.map(snapshot.val(), (val, uid) => {
+          return { ...val, uid };
+        });
+        // console.log(usersData);
+        that.setState({
+          business: usersData
+          // loading: false,
+        });
+      });
+  }
+
   render() {
     return (
       <div>
@@ -28,9 +54,24 @@ class Home extends Component {
           </div>
         </div>
         <div style={{ marginBottom: 20 }}>
-          <Card />
-          <Card />
-          <Card />
+          {this.state.business.map((item, key) => {
+            // console.log(item);
+            return (
+              <Link
+                to="projet+realises"
+                style={{ color: "black", textDecoration: "none" }}
+              >
+                <Card
+                  title={item.business_title}
+                  description={item.description}
+                  // onClick={myLink}
+                />
+              </Link>
+            );
+          })}
+
+          {/* <Card />
+          <Card /> */}
         </div>
 
         <div className="about">

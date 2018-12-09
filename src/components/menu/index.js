@@ -72,19 +72,16 @@ class MiniDrawer extends React.Component {
             >
               Re-fund
             </Typography>
-            <IconButton
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <img src={add} alt="add_button" width={22} height={22} />
-            </IconButton>
+            <Link to="/business+added">
+              <IconButton>
+                <img src={add} alt="add_button" width={22} height={22} />
+              </IconButton>
+            </Link>
             <div class="dropdown-menu dropdown-menu-right">
-              <Link to="/business+added">
-                <button class="dropdown-item" type="button">
-                  Add a Business
-                </button>
-              </Link>
+              <button class="dropdown-item" type="button">
+                Add a Business
+              </button>
+              {/* </Link> */}
               {/* <Link to="/add+a+company">
                 <button class="dropdown-item" type="button">
                   Add an Company
